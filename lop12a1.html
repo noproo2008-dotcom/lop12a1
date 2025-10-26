@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lớp 12A1 - THPT Sóc Sơn</title>
+    <style>
+        /* Toàn trang */
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            color: #333;
+        }
+
+        /* Tiêu đề */
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px 10px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            margin: 5px 0 0 0;
+            font-weight: normal;
+        }
+
+        /* Nội dung chính */
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        /* Hiệu ứng fade in */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Ô khen ngợi */
+        .praise {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+            font-style: italic;
+            border-radius: 5px;
+        }
+
+        /* Thông tin liên hệ */
+        .contact {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .contact-person {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact-person:hover {
+            background: #d0ebff;
+            cursor: pointer;
+        }
+
+        /* Chân trang */
+        footer {
+            text-align: center;
+            padding: 12px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        /* Responsive cho điện thoại */
+        @media (max-width: 600px) {
+            .header h1 { font-size: 26px; }
+            .content { margin: 10px; padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>LỚP 12A1</h1>
+        <h2>TRƯỜNG THPT SÓC SƠN</h2>
+    </div>
+    
+    <div class="content">
+        <div class="praise">
+            🏆 Lớp 12A1 tự hào là tập thể xuất sắc, luôn đi đầu trong mọi phong trào thi đua và học tập của nhà trường!
+        </div>
+        
+        <div class="praise">
+            ✨ Với tinh thần đoàn kết, sáng tạo và nhiệt huyết, 12A1 mãi là lớp học gương mẫu, đáng tin cậy!
+        </div>
+        
+        <h3>📚 Thông tin lớp:</h3>
+        <ul>
+            <li><b>Sĩ số:</b> 40 học sinh</li>
+            <li><b>Giáo viên chủ nhiệm:</b> Cô Nguyễn Thị Minh</li>
+            <li><b>Thành tích:</b> Liên tục đạt danh hiệu "Lớp xuất sắc"</li>
+        </ul>
+
+        <div class="contact">
+            <h3>📞 Liên hệ biết thêm chi tiết:</h3>
+            <div class="contact-person">Trịnh Trung Việt</div>
+            <div class="contact-person">Nguyễn Đình Mạnh Hiếu</div>
+            <div class="contact-person">Ngô Nguyên Đức</div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Lớp 12A1 - Trường THPT Sóc Sơn. Mọi quyền được bảo lưu.
+    </footer>
+</body>
+</html>
